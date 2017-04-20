@@ -4,6 +4,11 @@ public class ClassStudy {
 	public static void main(String args[]){
 		profile();
 		studyArray();
+		kami();
+	}
+	public static void kami(){
+		Human kami = new Human("kami", 20);
+		kami.whatYourName();
 	}
 
 	public static void profile(){
