@@ -1,5 +1,5 @@
 
-public class Human {
+public class Human extends Animal{
 	String name;
 	int age;
 
@@ -28,6 +28,14 @@ public class Human {
 		this.age = age;
 
 		return "ok";
+	}
+
+	public void move(){
+		super.position += 15;
+	}
+
+	public void whereAreYou(){
+		System.out.println("私は" + super.position + "にいます");
 	}
 
 	public void myNameIs(){
