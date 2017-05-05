@@ -1,6 +1,6 @@
 public class ExtendsStudy {
 	public static void main(String args[]){
-		animal();
+		//animal();
 	}
 
 	public static void animal(){
